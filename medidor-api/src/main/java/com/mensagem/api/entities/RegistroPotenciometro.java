@@ -13,16 +13,16 @@ public class RegistroPotenciometro {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	Long id;
+	private Long id;
 	
 	@Column(name = "valor_potenciometro")
-	int valorPotenciometro;
+	private int valorPotenciometro;
 	
 	@Column(name = "leds_acesos")
-	int ledsAcesos;
+	private int ledsAcesos;
 	
 	@Column(name = "data_hora_registro")
-	LocalDateTime dataHoraRegistro;
+	private LocalDateTime dataHoraRegistro;
 	
 	public RegistroPotenciometro() {
 		
