@@ -29,7 +29,7 @@ void conectarWifi(){
 
 
 
-void enviarMensagemParaApi(String mensagem){
+void enviarMensagemParaApi(int mensagem){
   if(WiFi.status() != WL_CONNECTED){
     Serial.println("Erro: WiFi desconectado.");
     conectarWiFi();
